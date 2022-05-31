@@ -1,0 +1,11 @@
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.Properties.Resources.resources
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.csproj.GenerateResource.cache
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\bin\Debug\Proiect_Blackjack.exe.config
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\bin\Debug\Proiect_Blackjack.exe
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\bin\Debug\Proiect_Blackjack.pdb
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.exe
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.pdb
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.GameScreenForm.resources
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.csproj.AssemblyReference.cache
+C:\Users\Florea Tudor - Dorin\Desktop\Proiect POO\Proiect_Blackjack\Proiect_Blackjack\obj\Debug\Proiect_Blackjack.MainMenuForm.resources

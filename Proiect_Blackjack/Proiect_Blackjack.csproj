@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8FFD471-4E08-455D-9382-6ADE549D3057}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Proiect_Blackjack</RootNamespace>
+    <AssemblyName>Proiect_Blackjack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Carti.cs" />
+    <Compile Include="GameScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameScreenForm.Designer.cs">
+      <DependentUpon>GameScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joc.cs" />
+    <Compile Include="Jucator.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GameScreenForm.resx">
+      <DependentUpon>GameScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cardback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Felt background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\2C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\2D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\2H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\2S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\3C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\3D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\3H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\3S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\4C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\4D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\4H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\4S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\5C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\5D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\5H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\5S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\6C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\6D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\6H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\6S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\7C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\7D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\7H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\7S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\8C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\8D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\8H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\8S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\9C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\9D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\9H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\9S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\10C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\10D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\10H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\10S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\AC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\AD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\AH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\AS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\JC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\JD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\JH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\JS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\KC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\KD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\KH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\KS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\QC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\QD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\QH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Carti\QS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackjack-1600x891_large.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
